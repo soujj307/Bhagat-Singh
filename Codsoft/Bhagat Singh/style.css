@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the entire page */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  /* Side frames */
+  .side-frame {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .left-frame {
+    margin-right: 10px;
+  }
+  
+  .right-frame {
+    margin-left: 10px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 35%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for Tribute */
+  h1 {
+    color: #2c3e50;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Image Styling for Passport Size */
+  .bhagat-img {
+    width: 120px;   /* Approx. 3.5 cm */
+    height: 160px;  /* Approx. 4.5 cm */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Quote Block */
+  blockquote {
+    font-style: italic;
+    font-size: 18px;
+    color: #2c3e50;
+    border-left: 5px solid #2c3e50;
+    padding-left: 15px;
+    margin: 20px 0;
+  }
+  
+  /* Styling for the paragraphs and side frame content */
+  p, h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: 18px;
+  }
